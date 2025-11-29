@@ -132,8 +132,11 @@ Addressing the top 10% of underperforming sellers could reduce overall delays by
 ## About the Analyst  
 Transitioning into Business Analysis with expertise in transforming operational data into actionable business intelligence. Specializing in clear, executive-ready dashboards and practical, data-driven recommendations.
 
-### Contact
+# Contact
 LinkedIn: https://linkedin.com/in/nsyahraini
+
 Portfolio: https://bit.ly/syahrainiportfolio
+
 Email: syahraini.nur@outlook.com
+
 *Project completed as part of professional portfolio development.*
