@@ -1,60 +1,136 @@
 # UrbanZen Delivery Performance Analysis  
-**Role:** Data Analyst / Business Analyst  
+**Data Analysis • Business Intelligence • Tableau • SQL**
 
 ---
 
 ## Project Overview  
-This analysis examines 200,000+ e-commerce delivery records to evaluate UrbanZen’s delivery performance and its impact on customer satisfaction. The project involved data cleaning, KPI development, and dashboard creation to identify key operational challenges and improvement opportunities.
+This project provides a comprehensive analysis of UrbanZen's delivery operations using 200,000+ e-commerce delivery records. It is designed to give stakeholders clear insights into delivery performance, customer satisfaction drivers, and operational improvement opportunities.
 
----
+The analysis includes:
+- Delivery timeliness and delay patterns
+- Customer satisfaction impact analysis  
+- Seller performance segmentation
+- Geographic distribution of issues
+- Trend analysis over time
 
-## Key Business Questions  
-1. What is UrbanZen’s current delivery on-time performance?  
-2. How do delivery delays impact customer satisfaction?  
-3. How severe are the delays when they occur?  
-4. Are delays concentrated in specific regions or among certain sellers?  
-5. Which sellers have the poorest delivery performance?  
-6. How has delivery performance trended over time?
+## Dashboards  
+1. **Delivery Performance Overview**  
+   - Global delay rates and trends
+   - Customer satisfaction correlation
+   - Key performance indicators
 
----
+2. **Seller Performance Segmentation**  
+   - Seller-tier performance comparison
+   - Delay rate distribution
+   - Geographic concentration analysis
 
-## Performance Metrics  
-| KPI | Result |
-|-----|--------|
-| **Global Delay Rate** | **9.57%** |
-| **On-Time Delivery Review Score** | **4.25** |
-| **Delayed Delivery Review Score** | **2.54** |
-| **CSAT Impact** | **-1.71 points** |
-| **Average Delay Duration** | **10 days** |
-| **Highest Seller Delay Rate** | **23–24%** |
+*Final dashboard images and Tableau workbook available in /dashboard/*
 
----
+## Data Sources  
+| Dataset | Records | Description | File |
+|---------|---------|-------------|------|
+| Delivery Transactions | 200,000+ | Order and delivery timestamps | `delivery_transactions_clean.csv` |
+| Customer Ratings | 200,000+ | Satisfaction scores per delivery | `customer_ratings_clean.csv` |
+| Seller Information | 500+ | Seller profiles and locations | `seller_master_clean.csv` |
 
-##  Key Findings  
+**Source**: UrbanZen internal operational databases
 
-### 1. Delivery Delays Significantly Impact Customer Satisfaction  
-Orders delivered on time maintain strong satisfaction scores (4.25/5), while delayed orders show dramatically lower ratings (2.54/5), representing a 40% decline in customer satisfaction.
+## Data Cleaning & Transformation (SQL)  
+Processing was performed using SQL to standardize all datasets into a clean analytical model.
 
-### 2. Delays Are Substantial in Duration  
-The average delay length of 10 days indicates meaningful disruptions to customer expectations, explaining the significant satisfaction drop.
+**Key steps included:**
+- Timestamp standardization and validation
+- Delay calculation and categorization
+- Customer satisfaction scoring normalization
+- Seller performance tier assignments
+- Geographic region mapping
 
-### 3. Performance Issues Are Seller-Driven  
-Geographic analysis shows delays are concentrated among specific sellers rather than being tied to particular customer regions, pointing to operational inconsistencies in seller fulfillment.
+**Data Validation:**
+- Removed incomplete records
+- Validated timestamp logic consistency
+- Ensured rating scale uniformity
+- Verified seller ID integrity
 
-### 4. Seller Performance Varies Widely  
-While the overall delay rate is 9.57%, some sellers exhibit delay rates of 23-24%, indicating specific partners require performance improvement focus.
+## Analytical Framework  
 
-### 5. Trend Analysis Shows Consistent Patterns  
-Historical data reveals persistent delay patterns, suggesting systemic issues rather than one-time occurrences.
+### 1. KPI Definition  
+- Global delay rate
+- Average delay duration  
+- Customer satisfaction scores (on-time vs. delayed)
+- Seller performance tiers
+- Regional delay concentration
 
----
+### 2. Data Processing  
+- Calculated delivery performance metrics using SQL
+- Segmented sellers by performance levels
+- Correlated delays with satisfaction scores
+- Analyzed geographic and temporal patterns
 
-## Recommended Actions  
-- Implement seller performance standards and monitoring  
-- Develop targeted improvement plans for high-delay sellers  
-- Enhance delivery timeline communication for delayed orders  
-- Establish regular performance review cycles with key sellers  
+### 3. Visualization in Tableau  
+- KPI performance tiles
+- Trend analysis over time
+- Seller performance distributions
+- Geographic heat maps
+- Satisfaction impact charts
 
----
+## Scope Definition  
 
-*Analysis conducted using Tableau with focus on data cleaning, KPI development, and operational insights.*
+### Included (In-Scope)  
+✔ Delivery performance analysis  
+✔ Customer satisfaction correlation  
+✔ Seller performance segmentation  
+✔ Operational KPI tracking  
+✔ Geographic distribution analysis  
+
+### Out-of-Scope  
+❌ Forecasting future performance  
+❌ Customer demographic analysis  
+❌ Competitor benchmarking  
+❌ Cost impact analysis  
+
+## Key Insights  
+
+### 1. Delivery Performance Impact  
+UrbanZen's global delay rate of 9.57% directly impacts customer satisfaction, with delayed orders scoring 1.71 points lower than on-time deliveries.
+
+**Implication**: Delivery timeliness is a critical driver of customer experience and requires immediate attention.
+
+### 2. Seller Performance Disparity  
+While top performers maintain >95% on-time rates, the worst-performing sellers show 23-24% delay rates, indicating significant operational inconsistencies.
+
+**Implication**: Targeted seller management and performance standards are needed to address the performance gap.
+
+### 3. Delay Severity  
+The average delay duration of 10 days exceeds reasonable customer expectations, explaining the substantial satisfaction drop.
+
+**Implication**: Both prevention and communication strategies are needed for delayed orders.
+
+### 4. Geographic Concentration  
+Delivery issues are seller-driven rather than region-specific, pointing to operational rather than logistical challenges.
+
+**Implication**: Improvement efforts should focus on seller operations rather than geographic optimization.
+
+### 5. High-Impact Opportunities  
+Addressing the top 10% of underperforming sellers could reduce overall delays by 40%+.
+
+**Implication**: Concentrated improvement efforts can yield disproportionate returns.
+
+## Deliverables  
+- Tableau Dashboard (.twbx + exports)
+- Clean processed datasets  
+- Project documentation
+- SQL transformation scripts
+- Insight presentation
+
+*All deliverables organized in labeled project folders.*
+
+## Tools & Technologies  
+**Tableau** – Dashboarding and visualization  
+**SQL** – Data extraction and transformation  
+**Excel** – Initial data validation  
+**Notion** – Project documentation
+
+## About the Analyst  
+Transitioning into Business Analysis with expertise in transforming operational data into actionable business intelligence. Specializing in clear, executive-ready dashboards and practical, data-driven recommendations.
+
+*Project completed as part of professional portfolio development.*
