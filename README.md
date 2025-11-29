@@ -129,12 +129,17 @@ Addressing the top 10% of underperforming sellers could reduce overall delays by
 **Notion** – Project documentation  
 **Canva** - Presentation
 
-## About the Analyst  
-Transitioning into Business Analysis with expertise in transforming operational data into actionable business intelligence. Specializing in clear, executive-ready dashboards and practical, data-driven recommendations.
+## **About the Analyst**
 
-# Contact
-LinkedIn: https://linkedin.com/in/nsyahraini  
-Portfolio: https://bit.ly/syahrainiportfolio  
-Email: syahraini.nur@outlook.com
+Hi, I’m **Syahraini**, transitioning into Business Analysis from an accounting background. I specialize in building **clear, executive-ready dashboards** and turning complex datasets into practical insights.
 
+---
+
+## **Contact**
+
+* **LinkedIn:** [https://linkedin.com/in/nsyahraini](https://linkedin.com/in/nsyahraini)
+* **Portfolio:** [https://bit.ly/syahrainiportfolio](https://bit.ly/syahrainiportfolio)
+* **Email:** [syahraini.nur@outlook.com](mailto:syahraini.nur@outlook.com)
+
+---
 *Project completed as part of professional portfolio development.*
