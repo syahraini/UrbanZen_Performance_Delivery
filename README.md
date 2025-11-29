@@ -126,17 +126,15 @@ Addressing the top 10% of underperforming sellers could reduce overall delays by
 **Tableau** – Dashboarding and visualization  
 **SQL** – Data extraction and transformation  
 **Excel** – Initial data validation  
-**Notion** – Project documentation
+**Notion** – Project documentation  
 **Canva** - Presentation
 
 ## About the Analyst  
 Transitioning into Business Analysis with expertise in transforming operational data into actionable business intelligence. Specializing in clear, executive-ready dashboards and practical, data-driven recommendations.
 
 # Contact
-LinkedIn: https://linkedin.com/in/nsyahraini
-
-Portfolio: https://bit.ly/syahrainiportfolio
-
+LinkedIn: https://linkedin.com/in/nsyahraini  
+Portfolio: https://bit.ly/syahrainiportfolio  
 Email: syahraini.nur@outlook.com
 
 *Project completed as part of professional portfolio development.*
