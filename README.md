@@ -29,9 +29,7 @@ The analysis includes:
 ## Data Sources  
 | Dataset | Records | Description | File |
 |---------|---------|-------------|------|
-| Delivery Transactions | 200,000+ | Order and delivery timestamps | `delivery_transactions_clean.csv` |
-| Customer Ratings | 200,000+ | Satisfaction scores per delivery | `customer_ratings_clean.csv` |
-| Seller Information | 500+ | Seller profiles and locations | `seller_master_clean.csv` |
+| Full Delivery Transactions | 200,000+ | Order and delivery timestamps | `full_delivery_table.csv` |
 
 **Source**: UrbanZen internal operational databases
 
@@ -129,8 +127,13 @@ Addressing the top 10% of underperforming sellers could reduce overall delays by
 **SQL** – Data extraction and transformation  
 **Excel** – Initial data validation  
 **Notion** – Project documentation
+**Canva** - Presentation
 
 ## About the Analyst  
 Transitioning into Business Analysis with expertise in transforming operational data into actionable business intelligence. Specializing in clear, executive-ready dashboards and practical, data-driven recommendations.
 
+### Contact
+LinkedIn: https://linkedin.com/in/nsyahraini
+Portfolio: https://bit.ly/syahrainiportfolio
+Email: syahraini.nur@outlook.com
 *Project completed as part of professional portfolio development.*
