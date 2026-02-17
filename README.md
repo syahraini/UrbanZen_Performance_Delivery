@@ -138,9 +138,9 @@ Hi, I’m **Syahraini**, transitioning into Business Analysis from an accounting
 
 ## **Contact**
 
-* **LinkedIn:** [https://linkedin.com/in/nsyahraini](https://linkedin.com/in/nsyahraini)
-* **Portfolio:** [https://bit.ly/syahrainiportfolio](https://bit.ly/syahrainiportfolio)
-* **Email:** [syahraini.nur@outlook.com](mailto:syahraini.nur@outlook.com)
+* **LinkedIn:** https://linkedin.com/in/nsyahraini
+* **Portfolio:** https://syahrainiaini.framer.website/
+* **Email:** mailto:syahraini.nur@outlook.com
 
 ---
 *Project completed as part of professional portfolio development.*
